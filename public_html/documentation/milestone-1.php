@@ -15,9 +15,9 @@
 		<p>Name:  Mike Manager</p>
 		<p>Age:  45</p>
 		<p>Profession:  Project Manager for a fairly large company.  The company does not specialize in website development, but rather uses in-house developers.</p>
-		<p>Technology:  Like most corporations in the business world, they use desktop PCs running windows.</p>
-		<p>Attitudes and Behaviors:  Mike is concerned with finding an employee who is a good fit for the company.</p>
-		<p>Frustrations and Needs:  </p>
+		<p>Technology:  Like most corporations in the business world, they use desktop PCs running Windows.</p>
+		<p>Attitudes and Behaviors:  Mike is concerned with finding an employee who is a good fit for the company.   It's important to him that he makes a good decision with somewhat limited time.</p>
+		<p>Frustrations and Needs:  He needs someone who knows the technical side of development and is familiar with as many of the tools as possible.  He would prefer familiarity with 100% of the tools but knows that may be difficult to find and is willing to settle for less than 100%.  The second major characteristic he needs is someone who can work on a team with coworkers and who can work with customers.</p>
 		<p>Goals: </p>
 		<p>User Story: </p>
 		<h2>Use Case</h2>
