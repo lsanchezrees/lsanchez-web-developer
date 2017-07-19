@@ -1,2 +1,2 @@
 # lsanchez-web-developer
-Repository for personal web site
+Repository for personal web site project
