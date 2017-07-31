@@ -15,7 +15,7 @@
 		<p><strong>Name:</strong>  Mike Manager</p>
 		<p><strong>Age:</strong>  45</p>
 		<p><strong>Profession:</strong>  Project Manager for a fairly large company.  The company does not specialize in website development, but rather uses in-house developers.</p>
-		<p><strong>Technology:</strong>  Like most corporations in the business world, they use desktop PCs running Windows.</p>
+		<p><strong>Technology:</strong>  Like most corporations in the business world, they use desktop PCs running Windows.  Mike has an IPhone that he uses for emails, messages, and occasional web surfing.  He uses his IPhone to keep in touch with the business world, so he will view potential employees' web pages on this phone as well.  Web pages must be responsive so the manager can view them and connect to any links on them.</p>
 		<p><strong>Attitudes and Behaviors:</strong>  Mike is concerned with finding an employee who is a good fit for the company.   It's important to him that he makes a good decision with somewhat limited time.</p>
 		<p><strong>Frustrations and Needs:</strong>  He needs someone who knows the technical side of development and is familiar with as many of the tools as possible.  He would prefer familiarity with 100% of the tools but knows that may be difficult to find and is willing to settle for less than 100%.  The second major characteristic he needs is someone who can work on a team with coworkers and who can work with customers.</p>
 		<p><strong>Goals:</strong> Mike's main goal is to hire an employee who can do the work and will be a good fit for the company.  He needs someone who can fit into the company's corporate culture.</p>
