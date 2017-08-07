@@ -19,9 +19,9 @@
 
 		<h2>Wireframes</h2>
 		<h3>Mobile:</h3>
-		<img src="images/website-mockup-mobile.jpg">
+		<img src="images/website-mockup-mobile.jpg" alt="mobile mockup">
 		<h3>Desktop:</h3>
-		<img src="images/website-mockup-desktop.jpg">
+		<img src="images/website-mockup-desktop.jpg" alt="desktop mockup">
 
 
 	</body>
