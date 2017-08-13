@@ -45,14 +45,22 @@
 
 				</div><!--column-->
 				<div class="col-md-6">
+					<h4>Skills</h4>
+					<p></p>
 
 				</div><!--column-->
 			</div><!--row-->
 			<div class="row">
 				<div class="col-md-6">
+					<h4>Experience</h4>
+					<p></p>
+
 
 				</div><!--column-->
 				<div class="col-md-6">
+					<h4>Interests and Hobbies</h4>
+					<p></p>
+
 
 				</div><!--column-->
 			</div><!--row-->
