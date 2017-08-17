@@ -1,1 +1,22 @@
 /*created for styles for personal website*/
+.off-white {
+
+	color: #356363;
+	background-color: white;
+	border: solid #356363 1px;
+	border-radius: 15px;
+
+}
+
+.in-color {
+	background-color: #356363;
+	color: white;
+	border: solid #356363 1px;
+	border-radius: 15px;
+}
+.col-md-6 {
+	margin: 1rem;
+}
+.squares {
+	margin: 1rem;
+}

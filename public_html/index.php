@@ -37,34 +37,46 @@
 	<body>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-5 squares off-white">
 					<h2>Leonora Sanchez-Rees, Web Developer</h2>
 					<h4>My focus as a web developer</h4>
-					<p>I am trained as a full stack web developer.  I have studied web design and have recently completed a Deep Dive Coding Bootcamp in order to gain experience in all aspects of web development.
+					<p>I am trained as a full stack web developer.  I have a certificated in Media Arts with an emphasis in web design.  I have recently completed a Deep Dive Coding Bootcamp in order to gain experience in all aspects of web development.
 					</p>
 
 				</div><!--column-->
-				<div class="col-md-6">
+				<div class="col-md-5 squares in-color">
 					<h4>Skills</h4>
-					<p></p>
+					<p><ul>
+						<li>mySQL</li>
+						<li>HTML and CSS</li>
+						<li>Bootstrap</li>
+						<li>JavaScript</li>
+						<li>PHP</li>
+					</ul></p>
 
 				</div><!--column-->
 			</div><!--row-->
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-5 squares off-white">
 					<h4>Experience</h4>
-					<p></p>
+					<p>I have a background in programming with extensive database experience and experience in data conversion.  I went back to school to update my skills.  I have led projects, created applications, worked on many teams, and trained and supported customers.</p>
 
 
 				</div><!--column-->
-				<div class="col-md-6">
+				<div class="col-md-5 squares in-color">
 					<h4>Interests and Hobbies</h4>
-					<p></p>
+					<p>I live in Santa Fe with my husband, and we both love hiking.  When I'm not outdoors or with my dog, I love to read and solve puzzles.  I have an interest in nutrition and health.</p>
+
 
 
 				</div><!--column-->
 			</div><!--row-->
 			<!--form goes here-->
+			<h2>Contact Me</h2>
+			<form id="contact">
+
+
+			</form>
 		</div><!--container-->
 	</body>
 </html>
