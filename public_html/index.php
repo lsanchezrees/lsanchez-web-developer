@@ -17,6 +17,9 @@
 		<!-- custom css link -->
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
 
+		<!--font links -->
+		<link href="https://fonts.googleapis.com/css?family=Archivo|Roboto" rel="stylesheet
+
 
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -37,14 +40,15 @@
 	<body>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-5 squares off-white">
-					<h2>Leonora Sanchez-Rees, Web Developer</h2>
+				<div class="col-md-5 squares in-color">
+					<h3>Leonora Sanchez-Rees</h3>
+					<h3>Web Developer</h3>
 					<h4>My focus as a web developer</h4>
 					<p>I am trained as a full stack web developer.  I have a certificated in Media Arts with an emphasis in web design.  I have recently completed a Deep Dive Coding Bootcamp in order to gain experience in all aspects of web development.
 					</p>
 
 				</div><!--column-->
-				<div class="col-md-5 squares in-color">
+				<div class="col-md-5 squares off-white">
 					<h4>Skills</h4>
 					<p><ul>
 						<li>mySQL</li>
@@ -52,6 +56,7 @@
 						<li>Bootstrap</li>
 						<li>JavaScript</li>
 						<li>PHP</li>
+						<li>WordPress</li>
 					</ul></p>
 
 				</div><!--column-->
@@ -63,7 +68,7 @@
 
 
 				</div><!--column-->
-				<div class="col-md-5 squares in-color">
+				<div class="col-md-5 squares in-color2">
 					<h4>Interests and Hobbies</h4>
 					<p>I live in Santa Fe with my husband, and we both love hiking.  When I'm not outdoors or with my dog, I love to read and solve puzzles.  I have an interest in nutrition and health.</p>
 
@@ -71,12 +76,25 @@
 
 				</div><!--column-->
 			</div><!--row-->
-			<!--form goes here-->
-			<h2>Contact Me</h2>
-			<form id="contact">
-
-
-			</form>
 		</div><!--container-->
+			<!--form goes here-->
+		<div class="container form-container">
+			<form>
+				<h3>Contact Me</h3>
+				<div class="form-group">
+					<label for="exampleInputName1">Name</label>
+					<input type="name" class="form-control" id="exampleInputName1" placeholder="Name">
+				<div class="form-group">
+					<label for="exampleInputEmail1">Email address</label>
+					<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+				</div>
+					<div class="form-group">
+						<label for="exampleInputMessage1">Message</label>
+						<textarea class="form-control" rows="3"></textarea>
+					</div>
+				<button type="submit" class="btn btn-default">Submit</button>
+			</form>
+		</div>
+
 	</body>
 </html>

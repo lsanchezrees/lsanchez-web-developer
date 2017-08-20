@@ -1,22 +1,31 @@
 /*created for styles for personal website*/
+body {
+	font-family: 'Roboto', sans-serif;
+
+}
+
 .off-white {
-
-	color: #356363;
-	background-color: white;
-	border: solid #356363 1px;
-	border-radius: 15px;
+	background-color: rgba(255,255,255, 0.7);
 
 }
 
-.in-color {
-	background-color: #356363;
+.in-color2 {
 	color: white;
-	border: solid #356363 1px;
-	border-radius: 15px;
+
 }
+
 .col-md-6 {
-	margin: 1rem;
+	height: 35%;
+	width: 50%;
 }
 .squares {
-	margin: 1rem;
+
+	padding: 1rem;
+}
+.container {
+	background-image: url("../images/mtn1.jpg");
+	background-repeat: repeat;
+}
+.form-container {
+	background: none;
 }
