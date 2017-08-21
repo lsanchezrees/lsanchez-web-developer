@@ -1,16 +1,24 @@
 /*created for styles for personal website*/
-body {
+.container {
 	font-family: 'Roboto', sans-serif;
+	background-color: #daf9f9;
+}
 
+.form-container {
+	background-color: #daf9f9;
+	border: solid 0.15rem darkcyan;
 }
 
 .off-white {
-	background-color: rgba(255,255,255, 0.7);
+	/*background-color: rgba(255,255,255, 0.7);*/
+	background-color: #daf9f9;
+	color: darkcyan;
 
 }
 
-.in-color2 {
-	color: white;
+.in-color {
+	color: #daf9f9;
+	background-color: darkcyan;
 
 }
 
@@ -20,11 +28,14 @@ body {
 }
 .squares {
 
-	padding: 1rem;
+	padding: 2rem;
+	height: 30rem;
+
 }
 .container {
-	background-image: url("../images/mtn1.jpg");
-	background-repeat: repeat;
+	/*background-image: url("../images/mtn3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;*/
 }
 .form-container {
 	background: none;

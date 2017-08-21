@@ -40,7 +40,7 @@
 	<body>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-5 squares in-color">
+				<div class="col-sm-6 squares in-color">
 					<h3>Leonora Sanchez-Rees</h3>
 					<h3>Web Developer</h3>
 					<h4>My focus as a web developer</h4>
@@ -48,7 +48,7 @@
 					</p>
 
 				</div><!--column-->
-				<div class="col-md-5 squares off-white">
+				<div class="col-sm-6 squares off-white">
 					<h4>Skills</h4>
 					<p><ul>
 						<li>mySQL</li>
@@ -62,13 +62,13 @@
 				</div><!--column-->
 			</div><!--row-->
 			<div class="row">
-				<div class="col-md-5 squares off-white">
+				<div class="col-sm-6 squares off-white">
 					<h4>Experience</h4>
-					<p>I have a background in programming with extensive database experience and experience in data conversion.  I went back to school to update my skills.  I have led projects, created applications, worked on many teams, and trained and supported customers.</p>
+					<p>I have a background in programming with extensive database experience and experience in data conversion.  I went back to school to update my skills.  I have led projects, created applications.  While doing this, I have worked on many teams, and trained and supported customers extensively.</p>
 
 
 				</div><!--column-->
-				<div class="col-md-5 squares in-color2">
+				<div class="col-sm-6 squares in-color">
 					<h4>Interests and Hobbies</h4>
 					<p>I live in Santa Fe with my husband, and we both love hiking.  When I'm not outdoors or with my dog, I love to read and solve puzzles.  I have an interest in nutrition and health.</p>
 
