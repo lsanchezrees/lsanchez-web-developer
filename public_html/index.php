@@ -40,22 +40,23 @@
 	<body>
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-6 squares in-color">
-					<h3>Leonora Sanchez-Rees</h3>
-					<h3>Web Developer</h3>
-					<h4>My focus as a web developer</h4>
+				<div class="col-sm-6 squares upper-left">
+					<h3 class="text-center">Leonora Sanchez-Rees</h3>
+					<h4 class="text-center">Web Developer</h4>
+					<h5 class="text-center">My focus as a web developer</h5>
 					<p>I am trained as a full stack web developer.  I have a certificated in Media Arts with an emphasis in web design.  I have recently completed a Deep Dive Coding Bootcamp in order to gain experience in all aspects of web development.
 					</p>
 
 				</div><!--column-->
 				<div class="col-sm-6 squares off-white">
-					<h4>Skills</h4>
+					<h4 class="text-center">Skills</h4>
 					<p><ul>
 						<li>mySQL</li>
 						<li>HTML and CSS</li>
 						<li>Bootstrap</li>
 						<li>JavaScript</li>
 						<li>PHP</li>
+						<li>Angular</li>
 						<li>WordPress</li>
 					</ul></p>
 
@@ -63,13 +64,13 @@
 			</div><!--row-->
 			<div class="row">
 				<div class="col-sm-6 squares off-white">
-					<h4>Experience</h4>
+					<h4 class="text-center">Experience</h4>
 					<p>I have a background in programming with extensive database experience and experience in data conversion.  I went back to school to update my skills.  I have led projects, created applications.  While doing this, I have worked on many teams, and trained and supported customers extensively.</p>
 
 
 				</div><!--column-->
-				<div class="col-sm-6 squares in-color">
-					<h4>Interests and Hobbies</h4>
+				<div class="col-sm-6 squares lower-right">
+					<h4 class="text-center">Interests and Hobbies</h4>
 					<p>I live in Santa Fe with my husband, and we both love hiking.  When I'm not outdoors or with my dog, I love to read and solve puzzles.  I have an interest in nutrition and health.</p>
 
 
