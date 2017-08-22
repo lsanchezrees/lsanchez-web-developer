@@ -13,7 +13,7 @@ body {
 }
 
 .off-white {
-	/*background-color: rgba(255,255,255, 0.7);*/
+
 	background-color: #f8fbfe;
 	color: #363e4b;
 
@@ -21,7 +21,6 @@ body {
 
 .upper-left {
 	color: #f8fbfe;
-	/*background-color: darkcyan;*/
 	background-image: url("../images/rainbow.jpg");
 	background-size: cover;
 
@@ -30,7 +29,7 @@ body {
 .lower-right {
 	padding-top: 10rem;
 	color: #f8fbfe;
-	/*background-color: darkcyan;*/
+
 	background-image: url("../images/leaves.jpg");
 	background-size: cover;
 
