@@ -18,7 +18,7 @@
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
 
 		<!--font links -->
-		<link href="https://fonts.googleapis.com/css?family=Archivo|Roboto" rel="stylesheet
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
 
 
