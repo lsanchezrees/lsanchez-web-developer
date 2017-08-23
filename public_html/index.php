@@ -38,10 +38,12 @@
 		<title>Leonora Sanchez, Web Developer</title>
 	</head>
 	<body>
+		<h2 class="text-center">Leonora Sanchez-Rees</h2>
 		<div class="container bg-container">
+
 			<div class="row">
 				<div class="col-sm-6 squares upper-left">
-					<h3 class="text-center">Leonora Sanchez-Rees</h3>
+
 					<h4 class="text-center">Web Developer</h4>
 					<h5 class="text-center">My focus as a web developer</h5>
 					<p>I am trained as a full stack web developer.  I have a certificate in Media Arts with an emphasis in web design.  I have recently completed a Deep Dive Coding Bootcamp in order to gain experience in all aspects of web development.
@@ -49,16 +51,29 @@
 
 				</div><!--column-->
 				<div class="col-sm-6 squares off-white">
+					<div class="row"><!--row for header-->
+					<div class="col-sm-12">
 					<h4 class="text-center">Skills</h4>
-					<p><ul>
+					</div><!--column-->
+					</div><!--header row -->
+					<div class="row">
+						<div class="col-xs-6">
+					<ul>
 						<li>mySQL</li>
 						<li>HTML and CSS</li>
 						<li>Bootstrap</li>
 						<li>JavaScript</li>
-						<li>PHP</li>
-						<li>Angular</li>
+						<li>jQuery</li>
+						<li>PHP</li></ul></div><!--first column of skills-->
+						<div class="col-xs-6">
+						<ul><li>Angular</li>
 						<li>WordPress</li>
-					</ul></p>
+						<li>Adobe Photoshop</li>
+						<li>Adobe Illustrator</li>
+						<li>Adobe InDesign</li>
+						</ul>
+						</div><!--2nd column of skills-->
+					</div><!--row-->
 
 				</div><!--column-->
 			</div><!--row-->
@@ -81,7 +96,7 @@
 			<!--form goes here-->
 		<div class="container form-container">
 			<form>
-				<h3>Contact Me</h3>
+				<h3 class="text-center">Contact Me</h3>
 				<div class="form-group">
 					<label for="exampleInputName1">Name</label>
 					<input type="name" class="form-control" id="exampleInputName1" placeholder="Name">

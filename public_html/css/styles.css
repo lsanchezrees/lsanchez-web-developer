@@ -22,8 +22,8 @@ body {
 
 .upper-left {
 	color: #f8fbfe;
-	/*background-image: url("../images/rainbow.jpg");*/
-	background-size: cover;
+	height: 45%;
+	background-color: rgba(0,0,0, 0.2);
 
 }
 
@@ -31,19 +31,18 @@ body {
 	padding-top: 10rem;
 	color: #f8fbfe;
 
-	/*background-image: url("../images/leaves.jpg");*/
+
 	background-size: cover;
 
 }
 
-.col-md-6 {
-	height: 45%;
-	width: 50%;
-}
+
 .squares {
 
 	padding: 5rem 2rem 2rem 2rem;
-	height: 30rem;
+
+	height: 45%;
+	width: 50%;
 
 }
 .container {
@@ -57,6 +56,3 @@ body {
 	background-size: cover;
 }
 
-ul {
-	padding-left: 10rem;
-}
