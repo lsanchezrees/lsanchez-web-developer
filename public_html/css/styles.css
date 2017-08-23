@@ -53,7 +53,8 @@ body {
 }
 
 .bg-container {
-	background-image: url("../images/aspens2.jpg");
+	background-image: url("../images/aspens3.jpg");
+	background-size: cover;
 }
 
 ul {
