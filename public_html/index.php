@@ -38,7 +38,7 @@
 		<title>Leonora Sanchez, Web Developer</title>
 	</head>
 	<body>
-		<div class="container">
+		<div class="container bg-container">
 			<div class="row">
 				<div class="col-sm-6 squares upper-left">
 					<h3 class="text-center">Leonora Sanchez-Rees</h3>

@@ -14,14 +14,15 @@ body {
 
 .off-white {
 
-	background-color: #f8fbfe;
+	/*background-color: #f8fbfe;*/
+	background-color: rgba(255, 255, 255, 0.6);
 	color: #363e4b;
 
 }
 
 .upper-left {
 	color: #f8fbfe;
-	background-image: url("../images/rainbow.jpg");
+	/*background-image: url("../images/rainbow.jpg");*/
 	background-size: cover;
 
 }
@@ -30,7 +31,7 @@ body {
 	padding-top: 10rem;
 	color: #f8fbfe;
 
-	background-image: url("../images/leaves.jpg");
+	/*background-image: url("../images/leaves.jpg");*/
 	background-size: cover;
 
 }
@@ -49,6 +50,10 @@ body {
 	/*background-image: url("../images/mtn3.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;*/
+}
+
+.bg-container {
+	background-image: url("../images/aspens2.jpg");
 }
 
 ul {
