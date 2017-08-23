@@ -23,7 +23,7 @@ body {
 .upper-left {
 	color: #f8fbfe;
 	height: 45%;
-	background-color: rgba(0,0,0, 0.2);
+
 
 }
 
@@ -52,7 +52,7 @@ body {
 }
 
 .bg-container {
-	background-image: url("../images/aspens3.jpg");
+	background-image: url("../images/aspens4.jpg");
 	background-size: cover;
 }
 
