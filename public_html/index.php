@@ -81,7 +81,7 @@
 			<div class="row">
 				<div class="col-sm-6 squares off-white">
 					<h4 class="text-center">Experience and Education</h4>
-					<p>I have a Master's degree in Linguistics as well as an A.A.S. in Information Systems.  I have a background in programming with extensive database experience and experience in data conversion.  I have led projects, created applications.  While doing this, I have worked on many teams, and trained and supported customers extensively. I returned to school to update my skills and am now certified in web development. </p>
+					<p>I have a Master's degree in Linguistics as well as an A.A.S. in Information Systems.  I have a background in programming with extensive database experience and experience in data conversion.  I have studied and/or worked in Sybase, Oracle and mySQL and am familiar with MSAccess and MongoDB.  As a programmer/analyst, I have led projects, created applications.  While doing this, I have worked on many teams, and trained and supported customers extensively. I returned to school to update my skills and am now certified in web development. </p>
 
 
 				</div><!--column-->
