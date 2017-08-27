@@ -18,8 +18,9 @@
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
 
 		<!--font links -->
-		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+
+		<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
 
 
 
@@ -39,14 +40,39 @@
 		<title>Leonora Sanchez, Web Developer</title>
 	</head>
 	<body>
-		<h2 class="text-center">Leonora Sanchez-Rees</h2>
+		<!--added header for external links-->
+		<header>
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">Leonora Sanchez-Rees</a>
+					</div>
+
+
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="https://www.linkedin.com/in/leonora-sanchez-815aaa104/" target="_blank">LinkedIn</a></li>
+							<li><a href="https://github.com/lsanchezrees" target="_blank">Github</a></li>
+							<li><a href="leonora-sanchezrees-resume.pdf" target="_blank">Resum&#233</a></li>
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				<!-- /.container-fluid -->
+			</nav>
+		</header>
+
+		<h2 class="text-center display-font1">Leonora Sanchez-Rees, Web Developer</h2>
 		<div class="container bg-container">
 
 			<div class="row">
-				<div class="col-sm-6 squares upper-left">
+				<div class="col-sm-6 col-xs-12 squares upper-left">
 
-					<h4 class="text-center">Web Developer</h4>
-					<h5 class="text-center">My focus as a web developer</h5>
+					<h4 class="text-center">My focus as a web developer</h4>
 					<p>I am trained as a full stack web developer.  I have a certificate in Media Arts with an emphasis in web design.  I have recently completed a Deep Dive Coding Bootcamp in order to gain experience in all aspects of web development.
 					</p>
 
@@ -58,7 +84,7 @@
 					</div><!--column-->
 					</div><!--header row -->
 					<div class="row">
-						<div class="col-xs-6">
+						<div class="col-xs-6 col-xs-12">
 					<ul>
 						<li>mySQL</li>
 						<li>HTML and CSS</li>
@@ -66,7 +92,7 @@
 						<li>JavaScript</li>
 						<li>jQuery</li>
 						<li>PHP</li></ul></div><!--first column of skills-->
-						<div class="col-xs-6">
+						<div class="col-xs-6 col-xs-12">
 						<ul><li>Angular</li>
 						<li>WordPress</li>
 						<li>Adobe Photoshop</li>
@@ -87,7 +113,8 @@
 				</div><!--column-->
 				<div class="col-sm-6 squares lower-right">
 					<h4 class="text-center">Interests and Hobbies</h4>
-					<p>I live in Santa Fe with my husband and dog.  I love to hike in all the beautiful wilderness around Santa Fe.  When I'm not outdoors or with my family, I love to read and solve puzzles.  I have an avid interest in nutrition and health.</p>
+					<p>I live in Santa Fe with my husband and dog.  I love to hike in all the beautiful wilderness around Santa Fe.  When I'm not outdoors or with my family, I like
+						to read and solve puzzles.  I have an avid interest in nutrition and health.</p>
 
 
 

@@ -1,8 +1,9 @@
 /*created for styles for personal website*/
 body {
-	margin: 2% auto;
+	margin: auto auto 2% auto;
 }
 .container {
+
 	font-family: 'Quicksand', sans-serif;
 	background-color: #daf9f9;
 }
@@ -14,45 +15,43 @@ body {
 
 .off-white {
 
-	/*background-color: #f8fbfe;*/
+
 	background-color: rgba(255, 255, 255, 0.6);
 	color: #363e4b;
-
 }
 
 .upper-left {
 	color: #f8fbfe;
 	height: 45%;
-
-
 }
 
 .lower-right {
 	padding-top: 10rem;
 	color: #f8fbfe;
-
-
 	background-size: cover;
-
 }
 
 
 .squares {
 
 	padding: 5rem 2rem 2rem 2rem;
-
 	height: 45%;
-	width: 50%;
+	}
 
-}
-.container {
-	/*background-image: url("../images/mtn3.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;*/
-}
 
 .bg-container {
-	background-image: url("../images/aspens4.jpg");
+	background-image: url("../images/mtns3.jpg");
 	background-size: cover;
+}
+
+.display-font1 {
+	font-family: 'Courgette', cursive;
+}
+
+.container-fluid {
+
+	background-color: #f5f6f7;
+
+
 }
 
