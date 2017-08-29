@@ -54,15 +54,15 @@
 						</button>
 						<a class="navbar-brand" href="#">Leonora Sanchez-Rees</a>
 					</div>
-
-
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
 							<li><a href="https://www.linkedin.com/in/leonora-sanchez-815aaa104/" target="_blank">LinkedIn</a></li>
 							<li><a href="https://github.com/lsanchezrees" target="_blank">Github</a></li>
-							<li><a href="leonora-sanchezrees-resume.pdf" target="_blank">Resum&#233</a></li>
+							<li><a href="leonora-sanchezrees-resume.pdf" target="_blank">Resum&#233;</a></li>
 						</ul>
 					</div><!-- /.navbar-collapse -->
-				<!-- /.container-fluid -->
+				</div><!-- /.container-fluid -->
 			</nav>
 		</header>
 
@@ -127,16 +127,17 @@
 				<h3 class="text-center">Contact Me</h3>
 				<div class="form-group">
 					<label for="exampleInputName1">Name</label>
-					<input type="name" class="form-control" id="exampleInputName1" placeholder="Name">
-				<div class="form-group">
+					<input type="text" class="form-control" id="exampleInputName1">
 					<label for="exampleInputEmail1">Email address</label>
 					<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
 				</div>
 					<div class="form-group">
 						<label for="exampleInputMessage1">Message</label>
-						<textarea class="form-control" rows="3"></textarea>
+						<textarea class="form-control" id="exampleInputMessage1" rows="3"></textarea>
 					</div>
-				<button type="submit" class="btn btn-default">Submit</button>
+				<div class="form-actions">
+				<button type="submit" class="btn btn-default offset4">Submit</button>
+				</div>
 			</form>
 		</div>
 
