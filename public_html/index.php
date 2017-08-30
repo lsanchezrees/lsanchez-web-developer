@@ -57,8 +57,8 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="https://www.linkedin.com/in/leonora-sanchez-815aaa104/" target="_blank">LinkedIn</a></li>
-							<li><a href="https://github.com/lsanchezrees" target="_blank">Github</a></li>
+							<li><a href="https://www.linkedin.com/in/leonora-sanchez-815aaa104/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+							<li><a href="https://github.com/lsanchezrees" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
 							<li><a href="leonora-sanchezrees-resume.pdf" target="_blank">Resum&#233;</a></li>
 						</ul>
 					</div><!-- /.navbar-collapse -->
