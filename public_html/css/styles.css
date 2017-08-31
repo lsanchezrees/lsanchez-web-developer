@@ -104,3 +104,6 @@ body {
 .sfooter-content {
 	flex: 1 0 auto;
 }
+#contact-form {
+	margin: 10rem;
+}
