@@ -37,6 +37,19 @@ body {
 	height: 45%;
 }
 
+/* media queries to give the upper-left quadrant a little more color when it's a stacked row.*/
+/* no color at a larger size */
+@media (min-width: 768px) {
+	.upper-left {
+		background-color: transparent;
+	}
+}
+/* transparent blue when it's stacked */
+@media (max-width: 767px) {
+	.upper-left {
+		background-color: rgba(72, 115, 168, 0.5); /* transparent pink */
+	}
+}
 .lower-right {
 	padding-top: 10rem;
 	color: #f8fbfe;
@@ -73,4 +86,31 @@ body {
 }
 .btn-default {
 	font-size: 1.75rem;
+}
+.fa {
+	font-size: 2rem;
+}
+footer {
+	background-color: #f5f6f7;
+	text-align: center;
+	font-size: 1.75rem;
+	margin-top: 2%;
+	padding: 1%;
+}
+/*corrects IE min-height bug*/
+html {
+	display: flex;
+}
+body {
+	width: 100%;
+}
+
+.sfooter {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.sfooter-content {
+	flex: 1 0 auto;
 }

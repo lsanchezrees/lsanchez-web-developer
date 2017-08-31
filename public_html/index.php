@@ -39,7 +39,8 @@
 
 		<title>Leonora Sanchez, Web Developer</title>
 	</head>
-	<body>
+	<body class="sfooter">
+		<div class="sfooter-content">
 		<!--added header for external links-->
 		<header>
 			<nav class="navbar navbar-default">
@@ -57,7 +58,7 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="https://www.linkedin.com/in/leonora-sanchez-815aaa104/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+							<li><a href="https://www.linkedin.com/in/leonora-sanchez-815aaa104/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true" ></i></a></li>
 							<li><a href="https://github.com/lsanchezrees" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
 							<li><a href="leonora-sanchezrees-resume.pdf" target="_blank">Resum&#233;</a></li>
 						</ul>
@@ -70,7 +71,7 @@
 		<div class="container bg-container">
 
 			<div class="row">
-				<div class="col-sm-6 col-xs-12 squares upper-left">
+				<div class="col-sm-6 squares upper-left">
 
 					<h4 class="text-center">My focus as a web developer</h4>
 					<p>I am trained as a full stack web developer.  I have a certificate in Media Arts with an emphasis in web design.  I have recently completed a Deep Dive Coding Bootcamp in order to gain experience in all aspects of web development.
@@ -140,6 +141,8 @@
 				</div>
 			</form>
 		</div>
+		</div><!--sfooter-content-->
+		<footer>&copy; 2017 Leonora Sanchez-Rees</footer>
 
 	</body>
 </html>
