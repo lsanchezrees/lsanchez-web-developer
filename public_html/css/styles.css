@@ -40,19 +40,21 @@ body {
 		background-color: rgba(72, 115, 168, 0.5); /* transparent pink */
 	}
 }
-.lower-right {
-	padding-top: 10rem;
-	color: #f8fbfe;
-	background-size: cover;
-}
-
-
 .squares {
 
 	padding: 5rem 2rem 2rem 2rem;
 	height: 45%;
 	}
 
+.lower-right {
+
+	color: #f8fbfe;
+	background-size: cover;
+	padding: 5rem 8rem;
+}
+.lower-right>p {
+	margin-top: 2.5rem;
+}
 
 .bg-container {
 	background-image: url("../images/mtns3.jpg");
@@ -106,4 +108,7 @@ body {
 }
 #contact-form {
 	margin: 10rem;
+}
+p, li {
+	font-size: 1.6rem;
 }
