@@ -76,7 +76,7 @@
 						<ul class="nav navbar-nav navbar-right">
 							<li><a href="https://www.linkedin.com/in/leonora-sanchez-815aaa104/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true" ></i></a></li>
 							<li><a href="https://github.com/lsanchezrees" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-							<li><a href="leonora-sanchezrees-resume.pdf" target="_blank">Resum&#233;</a></li>
+							<li><a href="lsanchezrees-resume.pdf" target="_blank">Resum&#233;</a></li>
 						</ul>
 					</div><!-- /.navbar-collapse -->
 				</div><!-- /.container-fluid -->
