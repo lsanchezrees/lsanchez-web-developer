@@ -141,6 +141,7 @@
 			<!--form goes here-->
 			<!--Begin Contact Form-->
 			<form id="contact-form" action="php/mailer.php" method="post">
+				<h3 class="text-center">Contact Me</h3>
 				<div class="form-group">
 					<label for="name">Name <span class="text-danger">*</span></label>
 					<div class="input-group">
