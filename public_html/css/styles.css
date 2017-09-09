@@ -37,7 +37,7 @@ body {
 /* transparent blue when it's stacked */
 @media (max-width: 767px) {
 	.upper-left {
-		background-color: rgba(72, 115, 168, 0.5); /* transparent pink */
+		background-color: rgba(72, 115, 168, 0.5);
 	}
 }
 .squares {
