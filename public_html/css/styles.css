@@ -7,7 +7,7 @@ body {
 .container {
 
 	font-family: 'Quicksand', sans-serif;
-	background-color: #daf9f9;
+	background-color: #e9eef2;
 }
 
 .form-container {
@@ -76,8 +76,9 @@ body {
 	margin: 2% auto;
 	text-align: center;
 }
-.btn-default {
+.btn {
 	font-size: 1.75rem;
+	margin: 1rem 1rem 1rem 0;
 }
 .fa {
 	font-size: 2rem;
@@ -106,9 +107,7 @@ body {
 .sfooter-content {
 	flex: 1 0 auto;
 }
-#contact-form {
-	margin: 10rem;
-}
+
 p, li {
 	font-size: 1.6rem;
 }

@@ -38,9 +38,6 @@
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-		<!-- jQuery -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-
 		<!-- jQuery Form, Additional Methods, Validate -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
@@ -76,7 +73,7 @@
 						<ul class="nav navbar-nav navbar-right">
 							<li><a href="https://www.linkedin.com/in/leonora-sanchez-815aaa104/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true" ></i></a></li>
 							<li><a href="https://github.com/lsanchezrees" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-							<li><a href="lsanchezrees-resume.pdf" target="_blank">Resum&#233;</a></li>
+							<li><a href="docs/lsanchezrees-resume.pdf" target="_blank">Resum&#233;</a></li>
 						</ul>
 					</div><!-- /.navbar-collapse -->
 				</div><!-- /.container-fluid -->
@@ -140,6 +137,9 @@
 		</div><!--container-->
 			<!--form goes here-->
 			<!--Begin Contact Form-->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
 			<form id="contact-form" action="php/mailer.php" method="post">
 				<h3 class="text-center">Contact Me</h3>
 				<div class="form-group">
@@ -185,6 +185,9 @@
 				<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 				<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
 			</form>
+					</div><!--column-->
+					</div><!--row-->
+			</div><!--container-->
 
 			<!--empty area for form error/success output-->
 			<div class="row">
