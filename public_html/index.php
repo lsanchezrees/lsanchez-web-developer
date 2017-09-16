@@ -141,7 +141,7 @@
 								<h3 class="panel-title">Experience and Education</h3>
 							</div>
 							<div class="panel-body lead lead2">
-								I have a Master's degree in Linguistics as well as an A.A.S. in Information Systems.  I have a background in programming with extensive database experience and experience in data conversion.  I have studied and/or worked in Sybase, Oracle and mySQL and am familiar with MSAccess and MongoDB.  As a programmer/analyst, I have led projects, created applications.  While doing this, I have worked on many teams, and trained and supported customers extensively. I returned to school to update my skills and am now certified in web development.
+								I have a Master's degree in Linguistics as well as an A.A.S. in Information Systems.  I have a background in programming with extensive database experience and experience in data conversion.  I have studied and/or worked in Sybase, Oracle and mySQL and am familiar with MSAccess and MongoDB.  As a programmer/analyst, I have led projects and created applications.  While doing this, I have worked on many teams, and trained and supported customers extensively. I returned to school to update my skills and am now certified in web development.
 							</div>
 						</div>
 					</div>
