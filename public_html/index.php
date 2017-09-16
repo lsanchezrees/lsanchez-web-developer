@@ -107,7 +107,7 @@
 						<li>jQuery</li>
 						<li>PHP</li></ul></div><!--first column of skills-->
 						<div class="col-xs-6 col-xs-12">
-						<ul><li>Angular</li>
+						<ul><li>Angular4</li>
 						<li>WordPress</li>
 						<li>Adobe Photoshop</li>
 						<li>Adobe Illustrator</li>
