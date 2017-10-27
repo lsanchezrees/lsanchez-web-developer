@@ -103,7 +103,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<h4>Below are some samples of artwork assignments I've done</h4>
+					<h4 class="text-center">Below are some samples of artwork assignments I've done</h4>
 				<div class="col-md-6">
 					<img class="img-responsive center-block" src="images/typog-poster.jpg" alt="typography poster">
 					<p class="text-center">This is a poster for a typography class.</p>
@@ -113,6 +113,17 @@
 					<p class="text-center">This tesselation was created for a class in design principles.</p>
 
 				</div>
+				</div>
+				<div class="row">
+					<h4 class="text-center">More to come!</h4>
+					<div class="col-md-6">
+
+					</div>
+					<div class="col-md-6">
+
+
+
+					</div>
 				</div>
 			</div>
 
