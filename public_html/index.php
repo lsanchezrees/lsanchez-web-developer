@@ -151,7 +151,7 @@
 		<!-- /fourth section -->
 
 		<!-- fifth section -->
-		<div id="services" class="pad-section">
+		<div id="interests" class="pad-section">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12 text-center">
@@ -159,7 +159,7 @@
 							<span class="glyphicon glyphicon-chevron-up"></span></a></p>
 						<h3>Interests and Hobbies</h3>
 						<h4>I live in Santa Fe with my husband and dog.  I love to hike in all the beautiful wilderness around Santa Fe.  When I'm not outdoors or with my family, I like
-							to read and solve puzzles.  I have an avid interest in nutrition and health.</h4>
+							to read and solve puzzles.  I especially like sci-fi novels about time travel, alternative history, and the multiverse.  I have an avid interest in nutrition and health.</h4>
 					</div>
 				</div>
 			</div>

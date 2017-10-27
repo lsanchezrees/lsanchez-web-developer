@@ -1,0 +1,435 @@
+/*css for the parallax*/
+.parallax1 {
+  height: 100%;
+  margin: 0;
+  /*font: 400 15px/1.8 "Lato", sans-serif;*/
+  color: #777;
+}
+
+/*divs for the images on the parallax page.*/
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("../img/uluru.jpg");
+ min-height: 100%;
+ margin-top:	-20px;
+ 
+}
+
+.bgimg-2 {
+  background-image: url("../img/mp3_1000.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("../img/amsterdam.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: none;
+  color: #fff;
+  padding: 18px;
+  font-size: 35px;
+  letter-spacing: 10px;
+}
+
+.border {
+	background-color:transparent;
+	font-size:25px;
+	color: #f7f7f7;"
+
+}
+
+.para2 {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  /*font: 20px "Lato", sans-serif;*/
+  color: #111;
+  text-align:	center;
+}
+.whitestripe {
+	color: #777;
+	background-color:	white;
+	text-align:	center;
+	padding:	50px 80px;
+	text-align: justify;
+}
+
+.blackstripe {
+	color:#ddd;
+	background-color:#282E34;
+	text-align:center;
+	padding:50px 80px;
+	text-align: justify;"
+	
+}
+
+
+.ailogo {
+	width:	2%;
+	height:	auto;
+
+
+}
+
+.navbar {
+background-color:	gray;
+color:	white;
+border:	none;
+
+
+}
+
+
+ .navbar-inverse .navbar-toggle{
+    border: solid 1px white;
+}
+
+
+
+
+.emp-photo {
+	width:	50%;
+	text-align:	center;
+	
+}
+
+.emp {
+	padding:	2%;
+}
+
+.employee {
+	font-weight:	600;
+	
+}
+
+.about {
+	letter-spacing:	normal;
+}
+
+.customrow {
+	  padding:	20px 0;
+  }
+  .custombox {
+	  margin:	1%;
+	  border-radius:	10px;
+	  background-color:	#eeeeee;
+	  padding-top:	10px;
+  }
+  
+  .row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+
+/*image hover change */
+#cf {
+  position:relative;
+  width:	500px;
+  height:	375px;
+  margin:0 auto 5% auto;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
+
+
+
+
+li .active {
+	font-weight:	800;
+	color:	gray;
+	
+}
+.navbar-inverse .navbar-nav > li > a {
+  color : white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #2f3e9d;
+}
+li:hover {
+	color:	black;
+}
+
+.jumbotron {
+background: #2f3e9d;
+/*2d3f5c--darker color, c1cedf--sky color, 2f3e9d--color on logo*/
+color: #FFF;
+border-radius: 0px;
+margin-top:	-20px;
+
+}
+.jumbotron-sm { padding-top: 24px;
+padding-bottom: 24px; }
+.jumbotron small {
+color: #FFF;
+}
+.h1 small {
+font-size: 24px;
+}
+.centered {
+	text-align:	center;
+}
+
+.btn {
+	background-color:	#2f3e9d;
+	border-color:	#2f3e9d;
+}
+.tours {
+	
+	margin-top:	5%;
+	padding-bottom:	2%;
+
+}
+@media only screen and (min-width : 768px) {
+    /* Make Navigation Toggle on Desktop Hover */
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+}
+
+.mp {
+	text-align:	center;
+}
+
+/*for the hr on the machu picchu page */
+hr.style18 { 
+  height: 30px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px; 
+} 
+hr.style18:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 0 0 1px 0; 
+  border-radius: 20px; 
+}
+
+
+
+.italic {
+	font-style:	italic;
+}
+
+.active {
+	color:	white;
+}
+
+ h1{
+	 text-align:	center;
+	
+ }
+ h3 {
+	 margin-left:	3%;
+	 font-size:		20px;
+ }
+footer {
+	background-color:	#c1cedf;
+	color:	black;
+	font-size:	20px;
+	text-align:	center;
+	padding:	20px;
+}
+
+.bggradient {
+	background: #c1cedf; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#c1cedf, #2d3f5c); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#c1cedf, #2d3f5c); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient( #c1cedf, #2d3f5c); /* For Firefox 3.6 to 15 */
+    background: linear-gradient( #c1cedf, #2d3f5c); /* Standard syntax (must be last)*/
+	margin-top:	-20px !important;
+	width:	100%;
+	
+}
+
+/*slideshow*/
+.slides1 {
+      -webkit-font-smoothing: antialiased;
+      text-transform:	initial;
+      color: #232525;
+      
+    }
+
+
+ #slides {
+      display: none
+    }
+
+ #slides .slidesjs-navigation {
+      margin-top:5px;
+    }
+
+    a.slidesjs-next,
+    a.slidesjs-previous,
+    a.slidesjs-play,
+    a.slidesjs-stop {
+      background-image: url(../img/btns-next-prev.png);
+      background-repeat: no-repeat;
+      display:block;
+      width:12px;
+      height:18px;
+      overflow: hidden;
+      text-indent: -9999px;
+      float: left;
+      margin-right:5px;
+    }
+
+    a.slidesjs-next {
+      margin-right:10px;
+      background-position: -12px 0;
+    }
+
+    a:hover.slidesjs-next {
+      background-position: -12px -18px;
+    }
+
+    a.slidesjs-previous {
+      background-position: 0 0;
+    }
+
+    a:hover.slidesjs-previous {
+      background-position: 0 -18px;
+    }
+
+    a.slidesjs-play {
+      width:15px;
+      background-position: -25px 0;
+    }
+
+    a:hover.slidesjs-play {
+      background-position: -25px -18px;
+    }
+
+    a.slidesjs-stop {
+      width:18px;
+      background-position: -41px 0;
+    }
+
+    a:hover.slidesjs-stop {
+      background-position: -41px -18px;
+    }
+
+    .slidesjs-pagination {
+      margin: 7px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(../img/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    #slides a:link,
+    #slides a:visited {
+      color: #333
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: #9e2020
+    }
+
+    /*.navbar {
+      overflow: hidden
+    }*/
+	
+	
+    #slides {
+      display: none
+    }
+
+    .container {
+      margin: 0 auto
+    }
+
+    /* For tablets & smart phones */
+    @media (max-width: 767px) {
+      body {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smartphones */
+    @media (max-width: 480px) {
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smaller displays like laptops */
+    @media (min-width: 768px) and (max-width: 979px) {
+      .container {
+        width: 724px
+      }
+    }
+
+    /* For larger displays */
+    @media (min-width: 1200px) {
+      .container {
+        width: 1170px
+      }
+    }
+
+  

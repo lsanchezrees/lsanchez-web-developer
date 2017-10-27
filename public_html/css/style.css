@@ -59,8 +59,8 @@ html, body {
 	background-color: rgba(255,255,255,0.3);
 	text-align: left;
 }
-#services {
-	background-color: #100500;
+#interests {
+	background-color: #3d5577;
 	color: #ffffff;
 }
 
@@ -76,7 +76,7 @@ html, body {
 }
 
 #information {
-	background: url(../images/background.jpg) no-repeat center center fixed;
+	background: url(../images/milky-way.jpg) no-repeat center center fixed;
 	display: table;
 	height: 800px;
 	position: relative;
@@ -95,6 +95,7 @@ footer {
 	font-size: 1.5rem;
 	margin-top: 2%;
 	padding: 1%;
+	width: 100%;
 }
 
 footer .glyphicon-chevron-up {
@@ -128,4 +129,20 @@ body {
 }
 .fa {
 	font-size: 2rem;
+}
+
+.portfolio {
+
+
+	background-color: lightgray;
+	margin-bottom: 2%;
+}
+.portfolio img {
+	margin-bottom: 2%;
+	width: 80%;
+	height: auto;
+}
+
+p {
+	margin-bottom: 5%;
 }

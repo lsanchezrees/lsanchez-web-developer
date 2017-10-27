@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Lucy's Bistro</title>
+<link href="styles.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Paprika" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container"><!--outer div with title-->
+<h1>Lucy's Bistro</h1>
+<div class="main"><!--div with nav, pics-->
+
+<div class="menu">
+<ul>
+<li class="current">Home</li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="menus.html">Menus</a></li>
+<li>Private Events</li>
+<li>Contact Us</li>
+</ul>
+</div><!--menu-->
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+    <img src="images/dinner1.jpg" alt="dinner with wine" >
+</div>
+
+<div class="mySlides fade">
+	<img src="images/dinner2.jpg" alt="pizza">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/gccheeseb.jpg" alt="green chile cheeseburger">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/dessert1.jpg" alt="dessert">
+</div>
+</div>
+<br>
+
+<div class="dots">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  
+</div>
+
+
+<a href="https://www.opentable.com/g/new-mexico/santa-fe-mountains-restaurants" target="_blank"><p class="button">Reservations through Open Table</p></a>
+
+</div><!--main-->
+
+<footer>
+<ul>
+<li>&copy; 2017</li>
+<li>6 Guadalupe St, Santa Fe, NM</li>
+<li>505-555-1212</li>
+</ul>
+</footer>
+</div><!--container-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5000); // Change image every 3 seconds
+}
+</script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

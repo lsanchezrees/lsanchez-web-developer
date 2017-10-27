@@ -42,13 +42,14 @@
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 
+		<!-- Your JavaScript Form Validator -->
+		<script src="js/form-validate.js"></script>
 
-
-
-
+		<!-- Google reCAPTCHA -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 		<title>Portfolio</title>
 	</head>
-	<body class="sfooter portfolio">
+	<body class="sfooter">
 		<div class="sfooter-content">
 			<!--added header for external links-->
 			<header>
@@ -81,40 +82,7 @@
 					</div><!-- /.container-fluid -->
 				</nav>
 			</header>
-			<h2 class="text-center">Portfolio</h2>
-			<h4 class="text-center">Web Page Designs</h4>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<img class="img-responsive center-block" src="images/screenshot-townhall.png">
-						<p class="text-center">This is the original UX-UI design for <a href="https://www.abqtownhall.com" target="_blank">Albuquerque Town Hall</a>, our Capstone project for the Deep Dive Coding Bootcamp</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<img class="img-responsive center-block" src="images/travel-site-sample-webpage.png">
-						<p class="text-center">This is a static website for a travel company.  <a href="sample-static-websites/travel/index.html" target="_blank">Click here</a> to see the website.  This is not a real website.</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<img class="img-responsive center-block" src="images/restaurant-website-sample-webpage.png">
-						<p class="text-center">Here is a static website for a restaurant.  <a href="sample-static-websites/restaurant/index.html" target="_blank">Click here</a> to access it.  Again, this is not a real website.</p>
-					</div>
-				</div>
-				<div class="row">
-					<h4>Below are some samples of artwork assignments I've done</h4>
-				<div class="col-md-6">
-					<img class="img-responsive center-block" src="images/typog-poster.jpg" alt="typography poster">
-					<p class="text-center">This is a poster for a typography class.</p>
-				</div>
-				<div class="col-md-6">
-					<img class="img-responsive center-block" src="images/mardigras-tesselation.png" alt="tesselation">
-					<p class="text-center">This tesselation was created for a class in design principles.</p>
-
-				</div>
-				</div>
-			</div>
+			<h2>Coming Soon</h2>
 
 
 		</div><!--sfooter-content-->

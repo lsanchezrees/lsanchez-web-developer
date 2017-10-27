@@ -1,0 +1,262 @@
+* {
+	margin:	0;
+	padding:	0;
+	width:	auto;
+	;
+	
+}
+
+.container {
+	width:	900px;
+	margin:	0 auto;
+	background-color:	#2f0006;
+	color:	white;
+	text-align:	center;
+	font-family: 'Roboto', sans-serif;
+	
+}
+.main {
+	margin:	0 auto;
+	background-color:	#860701;
+	padding:	50px;
+	
+}
+/*This is the button on the home page that gleams when you mouse over it.*/
+.button {
+   border-top: 2px solid #954f4b;
+   background: #954f4b;
+   background: -webkit-gradient(linear, left top, left bottom, from(#860701), to(#954f4b));
+   background: -moz-linear-gradient(top, #860701, #954f4b);
+   padding:  10px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(101,6,1,1) 0 1px 0;
+   -moz-box-shadow: rgba(101,6,1,1) 0 1px 0;
+   box-shadow: rgba(101,6,1,1) 0 1px 0;
+   color: white;
+   text-decoration: none; /*added so the link is not underlined.*/
+   vertical-align: middle;
+   position: relative;
+   overflow: hidden;
+   display: inline-block;
+}
+
+.button:before {
+   content: "";
+   width: 200%;
+   height: 200%;
+   position: absolute;
+   top: -200%;
+   left: -225%;
+
+   background-image: -webkit-linear-gradient(135deg, rgba(255,255,255,0), rgba(255,255,255,0.6), rgba(255,255,255,0)); 
+   background-image: -moz-linear-gradient(135deg, rgba(255,255,255,0), rgba(255,255,255,0.6), rgba(255,255,255,0));  
+    
+     -moz-transition: all 0.5s ease-out; 
+       -o-transition: all 0.5s ease-out; 
+  -webkit-transition: all 0.5s ease-out;
+      -ms-transition: all 0.5s ease-out;
+}
+
+.button:hover:before {
+  top: 200%;
+  left: 200%;   
+}
+/*changes the first letter of each paragraph to a large, italic letter--
+not quite a drop cap, but some text decoration. */
+.about p:first-letter{
+  font-size: 26px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/*makes the text wrap around the circular shape of the cake.  This
+did not work in firefox--only chrome. However, the "shape-outside" property didn't validate, so I commented it out.  I would love to show it in class.*/
+.about img {
+  width: 300px;
+  height: 300px;
+  float: left;
+  shape-outside: circle(50%); /* this gives the text its circular
+  shape around the cake, but does not validate in css */
+  border-style:	none;
+ 
+}
+
+h1 { color: white; margin: 0 0 30px 0; }
+
+
+a {
+	
+	color:	white;
+}
+
+li {
+	display:	inline;
+	padding:	0 18px;
+	margin:	10px;
+	font-size:	20px;
+}
+
+h2 {
+	padding:	30px 0 10px 0;
+}
+
+
+ul {
+	padding:	25px;
+}
+
+/*makes the current page text on the nav menu a darker color, so the user knows what 
+page they're on. */
+.current {
+	color:	#898989;
+}
+
+img	{
+	width:	600px;
+	height:	auto;
+	margin:	50px 100px;
+	 border:	1px groove #2f0006;
+	 
+	
+}
+h1 {
+		padding:	20px;
+		font-family: 'Paprika', cursive;
+		font-size:	50px;
+}
+
+footer li	{
+	font-size:	15px;
+	font-family:  'Bitter', serif;
+}
+
+
+
+p {
+	text-align:	left;
+	padding:	10px;
+	margin:	0 20px 0 20px;
+}
+
+/*this give the menu on the menu page a background pattern, and
+fixes the pattern, so there is parallax scrolling. */
+.lucymenu {
+	
+	padding:	30px 20px;
+	color:	#2f0006;
+	font-family: 'Bitter', serif;
+	background-image:	url("images/pattern.png");
+	background-attachment: fixed;
+	
+	
+}
+
+/*This puts a partially opaque background over the pattern--makes
+it more readable. */
+.layer {
+	background-color:	rgba(255,255,255,0.8);
+	margin:	-30px -20px;
+;
+	
+}
+
+/*This is the ribbon on the about page.  I changed the colors to match
+the site color scheme.*/
+.ribbon {
+ font-size: 20px;
+ 
+ width: 50%;border-radius:	5px;   
+ position: relative;
+ background: #2f0006;
+ background:	rgba(47,0,6,0.7);
+ color: #fff;
+ text-align: center;
+ padding: 1em 2em; /* Adjust to suit */
+ margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+}
+.ribbon:before, .ribbon:after {
+ content: "";
+ position: absolute;
+ display: block;
+ bottom: -1em;
+ border: 1.5em solid rgba(47,0,6,0.7);;
+ z-index: -1;
+}
+.ribbon:before {
+ left: -2em;
+ border-right-width: 1.5em;
+ border-left-color: transparent;
+}
+.ribbon:after {
+ right: -2em;
+ border-left-width: 1.5em;
+ border-right-color: transparent;
+}
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+ content: "";
+ position: absolute;
+ display: block;
+ border-style: solid;
+ border-color: #2f0006 transparent transparent transparent;
+ 
+ bottom: -1em;
+}
+.ribbon .ribbon-content:before {
+ left: 0;
+ border-width: 1em 0 0 1em;
+}
+.ribbon .ribbon-content:after {
+ right: 0;
+ border-width: 1em 1em 0 0;
+}
+.ribbonbg {position:	relative;
+z-index:	1;
+}
+/*end of ribbon*/
+
+/*These are the slides from the home page */
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  margin: 0 auto;
+ }
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.dots {
+	text-align:	center;
+	margin-bottom:	50px;
+	
+}
+
