@@ -67,7 +67,7 @@
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav navbar-right">
-								<li><a href="index2.php">Home</a></li>
+								<li><a href="index.php">Home</a></li>
 								<li><a href="#services">Services</a></li>
 								<li><a href="#information">Information</a></li>
 								<li><a href="#contact-form">Contact</a></li>
